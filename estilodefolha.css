@@ -1,0 +1,145 @@
+div#conteudo{
+	width: 1000px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+
+
+
+body{ 
+	background-image: url("FIGURAS/SKYNIGHT.jpg");
+
+
+
+}
+
+h1{
+	font-family: Arial;
+	font-variant: normal;
+	font-style: normal;
+	text-align: center;
+	letter-spacing: 6px;
+	background-color: #ffffff
+
+}
+
+h2{
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	color:#2e2011;
+	font-size: 26pt;
+	text-align: center;
+	text-decoration: underline overline;
+	text-transform: uppercase;
+}
+
+
+
+p{	
+	text-align: center;
+	font-variant: normal;
+	font-family: arial;
+	font-style: normal;
+	font-size: 16pt;
+	text-indent: 38px; /*recuo na primeira linha*/
+
+}
+
+
+
+li {
+	
+color: #000000;
+	
+font-size: 15pt;
+	
+font-family: arial;
+	
+text-align: left;
+
+}
+
+
+
+
+ul.menu{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+ul.menu li {
+float: left; /* faz os elementos flutuarem a esquerda */
+
+}
+
+ul.menu a:link, ul.menu a:visited {
+display:block;
+width:220px;
+font-weight: bold;
+color:#000000; 
+background-color: #bfa88e;
+text-align:center;
+text-decoration: none;
+padding:15px;  
+}
+
+ul.menu a:hover, ul.menu a:active {
+color:#ffffff;
+background-color:#2e2011;
+} 
+
+
+
+a:link{
+	color:#2e2011;
+	text-decoration:none;
+
+
+}
+
+a:visited{
+	color:#696969;
+	text-decoration:none;
+
+}
+a:active{
+	color:#2e2011;
+	text-decoration:underline;
+	background-color:white;
+
+}
+
+a:hover{
+	color:#bfa88e;
+	text-decoration:underline;
+	background-color:white;
+
+}
+
+
+h3{
+	color:#000000;
+	font-size: 20pt;
+	font-family: arial;
+	text-align: center;
+	text-decoration: underline overline;
+	text-transform: uppercase;
+}
+
+p.rodape{
+	color: #ffffff;
+	background-color: #bfa88e;
+	font-family: arial;
+	font-size: 14px
+
+
+}
+
+q{	
+	color: #000000;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 15px
+}
